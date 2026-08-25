@@ -5,19 +5,19 @@
 # SPDX-License-Identifier: Apache-2.0
 
 %global appid io.github.kolunmi.Bazaar
-# renovate: datasource=github-tags depName=bazaar-org/bazaar currentValue=0.9.4
-%global release_commit 48f93f417fb9ed46f1e234205aa45cd98869da6b
+# renovate: datasource=gitlab-releases depName=World/bazaar registryUrl=https://gitlab.gnome.org
+%global release_commit 23d97c23195cd3bf51583cd49fd67aa8a660f1bc
 
 %global debug_package %{nil}
 
 Name:           bazaar
-Version:        0.9.4
+Version:        0.9.3
 Release:        1%{?dist}
 Summary:        Flatpak-centric software center and app store
 
 License:        GPL-3.0-only
 URL:            https://usebazaar.org/
-Source:         https://github.com/bazaar-org/bazaar/archive/%{release_commit}.tar.gz
+Source:         https://gitlab.gnome.org/World/bazaar/-/archive/%{release_commit}/bazaar-%{release_commit}.tar.gz
 Patch0:         verified-apps-only.patch
 Patch1:         recognize-verified-remote.patch
 

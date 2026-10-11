@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-# renovate: datasource=github-tags depName=bazaar-org/krunner-bazaar currentValue=1.4.0
+# renovate: datasource=github-tags depName=bazaar-org/krunner-bazaar extractVersion=^v(?<version>.*)$ currentValue=1.4.0
 %global release_commit 323fc8d684a60a7f864964e97d55371bd6a74d9c
 
 Name:           krunner-bazaar

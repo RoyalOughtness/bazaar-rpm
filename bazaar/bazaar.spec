@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 %global appid io.github.kolunmi.Bazaar
-# renovate: datasource=gitlab-releases depName=World/bazaar registryUrl=https://gitlab.gnome.org
+# renovate: datasource=git-tags depName=https://gitlab.gnome.org/World/bazaar.git extractVersion=^v(?<version>.*)$ currentValue=0.9.3
 %global release_commit 23d97c23195cd3bf51583cd49fd67aa8a660f1bc
 
 %global debug_package %{nil}

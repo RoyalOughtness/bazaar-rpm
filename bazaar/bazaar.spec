@@ -102,6 +102,7 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{appid}.desktop
 %{_datadir}/icons/hicolor/symbolic/apps/%{appid}-symbolic.svg
 %{_datadir}/metainfo/%{appid}.metainfo.xml
 %{_datadir}/gnome-shell/search-providers/%{appid}.search-provider.ini
+%{_datadir}/dbus-1/services/io.github.kolunmi.Bazaar.service
 
 %files devel
 %{_libdir}/pkgconfig/bge.pc
